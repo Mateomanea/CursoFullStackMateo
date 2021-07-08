@@ -1,3 +1,41 @@
-#final{
+*{
+    background-color: black;
+}
+
+body{
+    color: white;
     text-align: center;
+}
+
+body h2{
+    text-align: center;
+    font-size: 55px;
+    color: yellow;
+    text-rendering: optimizeLegibility;
+}
+
+body input{
+    background-color: white;
+}
+
+body label{
+    font-size: 45;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+}
+
+#submit{
+    width: 110px;
+    height: 30px;
+    font-size: 16px;
+}
+
+#submit:hover{
+    color: blue;
+    font-size: 20px;
+    
+}
+
+.volver a:hover{
+    color: rgb(159, 42, 255);
 }

@@ -1,9 +1,83 @@
 *{
-    padding: 10;
-    margin: 4; 
+    padding: 0;
+    margin: 0; 
 }
 
 h1{
     text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 50px;
 }
 
+img{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 300px;   
+}
+
+.datos{
+    background-color: black;
+    color: white;
+}
+
+.datos b{
+    font-size: 31px;
+    font-style: italic;
+}
+
+.datos span{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    
+}
+
+#br{
+    background-color: black;
+    color: #000;
+}
+
+.series{
+    background-color: black;
+}
+
+.series h2{
+    text-align: center;
+    background-color: rgb(165, 9, 9);
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+    font-size: 40px;
+}
+
+.series ul{
+    color: rgb(71, 167, 7);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+.expectativas{
+    margin: 7;
+    padding: 4;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.expectativas h2{
+    background-color: rgb(165, 9, 9);
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+.expectativas h3 {
+    background-color: white;
+    font-size: 55;
+}
+
+h3 a:hover{
+    color: rgb(28, 0, 92);
+}
