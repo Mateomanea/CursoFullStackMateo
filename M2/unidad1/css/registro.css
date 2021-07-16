@@ -1,0 +1,101 @@
+*{
+    margin: 5px 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+    
+}
+
+body{
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-right: 50px;
+    padding: 8px 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav a:hover{
+    box-shadow: 0 0px 15px 3px #fff;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-family: 'Otomanopee One', sans-serif;
+    color: rgb(36, 24, 197);
+    text-shadow: 3px 0px 2px #fff;
+}
+
+.title audio{
+    margin-top: 20px;
+}
+
+.form-register{
+    width: 500px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 18px;
+    box-shadow: -1px 1px 32px 24px rgba(17,0,187,1);
+    -webkit-box-shadow: -1px 1px 32px 24px rgba(17,0,187,1);
+    -moz-box-shadow: -1px 1px 32px 24px rgba(17,0,187,1);
+    padding: 30px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.controls{
+    width: 100%;
+    background-color: rgb(36, 24, 197);
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(223, 223, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.controls:hover{
+    border: 2px solid #fff;
+    background-color: rgb(60, 47, 245)
+}
+
+.boton{
+    color: #fff;
+    width: 49%;
+    background-color: rgb(36, 24, 197);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(223, 223, 223);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.boton:hover{
+    background-color: rgb(60, 48, 224) ;
+    border: 2px solid #fff;
+    box-shadow: 0 0px 30px 0px rgb(14, 0, 216);
+}
+
+.form-register p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
