@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+}
+
+/******** nav ********/
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10%;
+}
+
+nav .nav-btn{   
+    color: #fff;
+    margin-top: 5px;
+    padding: 10px 35px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .nav-btn:hover{
+    font-size: 24px;
+    transition: .4s;
+    text-shadow: 2px -1px 12px rgba(255,255,255,1);   
+}
+
+/******* ejercicio 01 *******/
+
+.contenedor1{
+    border: 3px solid #fff;
+    margin: 0 18%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.items1{
+    width: 150px;
+    height: 150px;
+    margin-left: 718px;
+    
+}
+
+/******* ejercicion 02 *******/
+
+.contenedor2{
+    border: 3px solid #fff;
+    margin: 0 455px;
+    padding: 150px 0;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.items2{
+    width: 150px;
+    height: 150px;
+}
+
+/******* ejercicio 03 *******/
+
+.contenedor3{
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 18%;
+    margin-top: 5%;
+}
+
+.items3{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
