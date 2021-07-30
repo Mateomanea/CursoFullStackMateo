@@ -1,0 +1,176 @@
+@media screen and (max-width: 800px){
+    *{
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid black; */
+        background-color: #601BE6;
+    }
+
+    .nav-conteiner nav{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 5px 30%;
+    }
+
+    .nav-conteiner nav a{
+        text-decoration: none;
+        font-size: 1.2em;
+        color: #000;
+        padding: 3px 10px;
+    }
+
+    .nav-conteiner nav .btn{
+        position: relative;
+    }
+
+    .nav-conteiner nav .btn:hover{
+        box-shadow: -1px -5px 19px 3px rgba(255,255,255,0.68) inset;
+        -webkit-box-shadow: -1px -5px 19px 3px rgba(255,255,255,0.68) inset;
+        -moz-box-shadow: -1px -5px 19px 3px rgba(255,255,255,0.68) inset;
+    }
+
+    .nav-conteiner nav .btn:hover::before{
+        width: 100%;
+        
+    }
+
+    .nav-conteiner nav .btn::before{
+        content: "";
+        height: 3px;
+        width: 0%;
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transition: width 0.7s;
+    }
+
+    .nav-conteiner h1{
+        display: flex;
+        justify-content: center;
+        font-size: 2.3em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 10px;
+        letter-spacing: 2px;   
+    }
+
+   
+    
+    .box-conteiner1{
+        /* border: 1px solid red; */
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 70%;
+    }
+
+    .box-conteiner1 .box1{
+        background-color: #7A38FF;
+        border-radius: 5px;
+    }
+
+    .box-conteiner1 .box1 h2{
+        background-color: #7A38FF;
+        color: #E6DA1C;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    .box-conteiner1 .box1 p{
+        background-color: #7A38FF;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .box-conteiner2{
+        /* border: 2px solid white; */
+        margin: 0 10px;
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .box-conteiner2 .box2{
+        background-color: #7A38FF;
+        display: inline-flex;
+        flex-direction: column;
+        width: 40%;
+    }
+
+    .box-conteiner2 .box2 h2{
+        background-color: #7A38FF;
+        color: #E6DA1C;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .box-conteiner2 .box2 p{
+        background-color: #7A38FF;
+        font-family: 'Rajdhani', sans-serif;
+    }
+
+    .box-conteiner2 .prueba{
+        background-color: #000;
+        width: 55%;
+        display: flex;     
+        justify-content: center;
+        align-items: center;  
+        border-radius: 20px;
+        animation: boxprueba;
+        ;
+    }
+
+    @keyframes boxprueba {
+        20% {box-shadow: 1px -2px 31px 16px rgba(255,255,255,0.49)}
+        30% {box-shadow: 1px -2px 31px 16px rgb(255, 255, 255)}
+        40% {box-shadow: 1px -2px 31px 16px rgba(255, 255, 255, 0.808)}
+        50% {box-shadow: 1px -2px 31px 16px rgba(255, 255, 255, 0.199)}
+        55% {box-shadow: 1px -2px 31px 16px rgba(255,255,255,0.49)}
+        60% {box-shadow: 1px -2px 31px 16px rgb(255, 255, 255)}
+        70% {box-shadow: 1px -2px 31px 16px rgba(255,255,255,0.49)}
+        80% {box-shadow: 1px -2px 31px 16px rgba(255, 255, 255, 0.199)} 
+        85% {box-shadow: 1px -2px 31px 16px rgba(255, 255, 255, 0.788)}
+        87% {box-shadow: 1px -2px 31px 16px rgba(209, 25, 25, 0.281)}
+        90% {box-shadow: 1px -2px 31px 16px rgba(207, 52, 52, 0.863)}
+        95% {box-shadow: 1px -2px 31px 16px rgba(255,255,255,0.49)}
+        100% {box-shadow: 1px -2px 31px 16px rgb(255, 255, 255)}       
+    }
+
+    .box-conteiner2 .prueba:hover{
+        animation: boxprueba 3s ease;
+        animation-iteration-count: infinite;
+    }
+
+    .box-conteiner2 .prueba h3{
+        /* border: 1px solid white; */
+        background-color: #000;
+        color: #fff;
+        font-size: 4em;
+        font-family: 'Fredoka One', cursive;
+        font-weight: 100;
+        text-transform: uppercase;
+        animation-name: prueba;
+        animation-duration: 2.5s;
+        transition-delay: 1s;
+        text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.329)
+        
+    }
+
+    @keyframes prueba {
+        from {font-size: 0em;}
+        10% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.192);}
+        20% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.247);}
+        30% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.37);}
+        40% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.418);}
+        50% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.507);}
+        60% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.589);}
+        70% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.61);}
+        75% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.329);}
+        80% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.692);}
+        85% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.308);}
+        87% {text-shadow: 4px 4px 15px rgb(255, 255, 255);}
+        90% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.26); color: black;}
+        93% {text-shadow: 4px 4px 15px rgba(255, 255, 255, 0.562);}
+        95% {text-shadow: 4px 4px 15px rgba(255,255,255,1);}
+        99% {text-shadow: 4px 4px 15px rgb(255, 255, 255);}
+        to {font-size: 4em;}  
+        
+    }
+
+}
